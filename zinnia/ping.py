@@ -16,7 +16,7 @@ from zinnia.flags import PINGBACK
 from zinnia.settings import PROTOCOL
 
 
-class URLRessources(object):
+class URLRessources:
     """
     Object defining the ressources of the Website.
     """

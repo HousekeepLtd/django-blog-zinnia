@@ -3,7 +3,7 @@ from django.http import Http404
 from django.utils.translation import gettext as _
 
 
-class EntryPreviewMixin(object):
+class EntryPreviewMixin:
     """
     Mixin implementing the preview of Entries.
     """

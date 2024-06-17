@@ -32,7 +32,7 @@ class CategoryList(ListView):
             count_entries_published=Count('entries'))
 
 
-class BaseCategoryDetail(object):
+class BaseCategoryDetail:
     """
     Mixin providing the behavior of the category detail view,
     by returning in the context the current category and a

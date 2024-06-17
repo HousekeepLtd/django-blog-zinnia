@@ -31,7 +31,7 @@ class TagList(ListView):
             Entry.published.all(), counts=True)
 
 
-class BaseTagDetail(object):
+class BaseTagDetail:
     """
     Mixin providing the behavior of the tag detail view,
     by returning in the context the current tag and a

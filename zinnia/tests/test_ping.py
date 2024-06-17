@@ -12,7 +12,7 @@ from zinnia.ping import URLRessources
 from zinnia.signals import disconnect_entry_signals
 
 
-class FakeThread(object):
+class FakeThread:
     def start(self):
         pass
 

@@ -36,7 +36,7 @@ def pearson_score(list1, list2):
     return num / den
 
 
-class ModelVectorBuilder(object):
+class ModelVectorBuilder:
     """
     Build a list of vectors based on a Queryset.
     """

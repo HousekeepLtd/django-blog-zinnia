@@ -1,7 +1,4 @@
-# coding=utf-8
 """Test cases for Zinnia's admin"""
-from __future__ import unicode_literals
-
 from django.contrib.admin.sites import AdminSite
 from django.contrib.auth.models import User
 from django.contrib.sites.models import Site
@@ -54,7 +51,7 @@ class BaseAdminTestCase(TestCase):
             self.assertEqual(func(*args), result_poor)
 
 
-class TestMessageBackend(object):
+class TestMessageBackend:
     """Message backend for testing"""
     def __init__(self, *ka, **kw):
         self.messages = []
@@ -397,7 +394,7 @@ class EntryAdminTestCase(BaseAdminTestCase):
         self.assertEqual(len(self.request._messages.messages), 2)
 
     def test_ping_directories(self):
-        class FakePinger(object):
+        class FakePinger:
             def __init__(self, *ka, **kw):
                 self.results = [{'flerror': False, 'message': 'OK'},
                                 {'flerror': True, 'message': 'KO'}]

@@ -2,7 +2,7 @@
 from django.core.exceptions import ImproperlyConfigured
 
 
-class PrefetchRelatedMixin(object):
+class PrefetchRelatedMixin:
     """
     Mixin allow you to provides list of relation names
     to be prefetching when the queryset is build.
