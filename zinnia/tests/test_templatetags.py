@@ -616,7 +616,7 @@ class TemplateTagsTestCase(TestCase):
                              self.entry)
 
     def test_zinnia_pagination(self):
-        class FakeRequest(object):
+        class FakeRequest:
             def __init__(self, get_dict):
                 self.GET = get_dict
 
@@ -758,7 +758,7 @@ class TemplateTagsTestCase(TestCase):
         Reproduce the issue encountred on my website,
         versus the expected result.
         """
-        class FakeRequest(object):
+        class FakeRequest:
             def __init__(self, get_dict={}):
                 self.GET = get_dict
 
@@ -778,11 +778,11 @@ class TemplateTagsTestCase(TestCase):
 
     @skip_if_custom_user
     def test_zinnia_breadcrumbs(self):
-        class FakeRequest(object):
+        class FakeRequest:
             def __init__(self, path):
                 self.path = path
 
-        class FakePage(object):
+        class FakePage:
             def __init__(self, number):
                 self.number = number
 

@@ -28,31 +28,6 @@ LANGUAGE_CODE = 'en'
 
 LANGUAGES = (
     ('en', gettext('English')),
-    ('fr', gettext('French')),
-    ('de', gettext('German')),
-    ('es', gettext('Spanish')),
-    ('it', gettext('Italian')),
-    ('nl', gettext('Dutch')),
-    ('sl', gettext('Slovenian')),
-    ('bg', gettext('Bulgarian')),
-    ('hu', gettext('Hungarian')),
-    ('cs', gettext('Czech')),
-    ('sk', gettext('Slovak')),
-    ('lt', gettext('Lithuanian')),
-    ('ru', gettext('Russian')),
-    ('pl', gettext('Polish')),
-    ('eu', gettext('Basque')),
-    ('he', gettext('Hebrew')),
-    ('ca', gettext('Catalan')),
-    ('tr', gettext('Turkish')),
-    ('sv', gettext('Swedish')),
-    ('is', gettext('Icelandic')),
-    ('hr_HR', gettext('Croatian')),
-    ('pt_BR', gettext('Brazilian Portuguese')),
-    ('fa_IR', gettext('Persian')),
-    ('fi_FI', gettext('Finnish')),
-    ('uk_UA', gettext('Ukrainian')),
-    ('zh-hans', gettext('Simplified Chinese')),
 )
 
 MIDDLEWARE = [

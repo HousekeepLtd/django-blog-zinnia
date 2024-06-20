@@ -1,4 +1,12 @@
+0.22.rc2 - 2024/06/20
+
+* Fix compatibility with Django 4.0
+* Cut some Python2-specific code
+* Cut languages not required for the project
+* Add management script for Demo project
+
 0.22.rc1 - 2022/12/02
+-------------------
 
 * Fix backwards incompatible shortened URLs to include trailing slash
 * Fix unicode compatibility for author names

@@ -1,6 +1,4 @@
 """Preview for Zinnia"""
-from __future__ import division
-
 from bs4 import BeautifulSoup
 
 from django.utils.functional import cached_property
@@ -12,7 +10,7 @@ from zinnia.settings import PREVIEW_MORE_STRING
 from zinnia.settings import PREVIEW_SPLITTERS
 
 
-class HTMLPreview(object):
+class HTMLPreview:
     """
     Build an HTML preview of an HTML content.
     """

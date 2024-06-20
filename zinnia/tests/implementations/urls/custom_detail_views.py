@@ -1,5 +1,4 @@
 """Test urls for the zinnia project"""
-from django.conf.urls import url
 from django.urls import path
 
 from zinnia.tests.implementations.urls.default import (
@@ -9,7 +8,7 @@ from zinnia.views.categories import CategoryDetail
 from zinnia.views.tags import TagDetail
 
 
-class CustomModelDetailMixin(object):
+class CustomModelDetailMixin:
     """
     Mixin for changing the template_name
     and overriding the context.

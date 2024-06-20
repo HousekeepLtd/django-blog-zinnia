@@ -1,7 +1,7 @@
 """Cache mixins for Zinnia views"""
 
 
-class EntryCacheMixin(object):
+class EntryCacheMixin:
     """
     Mixin implementing cache on ``get_object`` method.
     """

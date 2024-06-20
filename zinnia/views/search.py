@@ -7,7 +7,7 @@ from zinnia.settings import PAGINATION
 from zinnia.views.mixins.prefetch_related import PrefetchCategoriesAuthorsMixin
 
 
-class BaseEntrySearch(object):
+class BaseEntrySearch:
     """
     Mixin providing the behavior of the entry search view,
     by returning in the context the pattern searched, the

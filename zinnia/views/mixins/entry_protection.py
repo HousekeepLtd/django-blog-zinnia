@@ -2,7 +2,7 @@
 from django.contrib.auth.views import LoginView
 
 
-class LoginMixin(object):
+class LoginMixin:
     """
     Mixin implemeting a login view
     configurated for Zinnia.
@@ -17,7 +17,7 @@ class LoginMixin(object):
         )(self.request)
 
 
-class PasswordMixin(object):
+class PasswordMixin:
     """
     Mixin implementing a password view
     configurated for Zinnia.

@@ -33,7 +33,7 @@ PINGBACK_ALREADY_REGISTERED = 48
 PINGBACK_IS_SPAM = 51
 
 
-class FakeRequest(object):
+class FakeRequest:
     META = {}
 
 
